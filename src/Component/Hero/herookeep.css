@@ -1,0 +1,170 @@
+
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding:2rem;
+    background: #EFF8FF;
+  }
+  @media screen and (max-width: 850px){
+    .hero{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #eff8ff;
+      height: auto;
+      justify-content: center;
+    }
+  }
+  
+  .hero #a{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 200px;
+    position: relative; /* Add this line */
+  }
+  
+  @media screen and (max-width: 850px){
+    .hero #a{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      align-items: center;
+    }
+  }
+  
+  .hero #a h1{
+    font-family: "Inter";
+    font-size: 55px;
+  }
+  @media screen and (max-width: 850px){
+    .hero #a h1{
+      font-family: "Inter";
+      font-size: 35px;
+      text-align: center;
+    }
+  }
+  
+  
+  .hero #a #numberOne{
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+    color: #5c6881;
+    position: relative;
+    bottom: 0; 
+  }
+  @media screen and (max-width: 850px){
+    .hero #a #numberOne{
+      font-family: "Inter";
+      font-size: 14px;
+      font-weight: 200;
+      color: #5c6881;
+      /* position: relative;
+      bottom: 15px; */
+      width: 300px;
+    }
+  }
+  
+  .hero #a #numberTwo{
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 26.4px;
+    font-weight: 400;
+    width: 450px;
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 850px){
+    .hero #a #numberTwo{
+      font-family: "Inter";
+      font-size: 14px;
+      line-height: 20.4px;
+      font-weight: 400;
+      margin-top: 50px;
+      width: 300px;
+    }
+  }
+  
+  .hero #a #first{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #175CD3;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-family: "Inter";
+  color: #175CD3;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  @media screen and (max-width: 850px){
+    .hero #a #first{
+      border-style: solid;
+      border-width: 1px;
+      border-color: #175cd3;
+      padding: 8px 25px;
+      border-radius: 2.5px;
+      font-family: "Inter";
+      color: #175cd3;
+      background-color: rgba(255, 255, 255, 0);
+      font-size: 10px;
+      display: block;
+      position: relative;
+      left: 5px;
+      cursor: pointer;
+    }
+  }
+  
+  .hero #a #second{
+  border-style: none;
+  border-color: #175CD3;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-family: "Inter";
+  color: #fff;;
+  background-color: #175CD3;
+  font-size: 16px;
+  position: relative;
+  left: 60px;
+  cursor: pointer;
+  }
+  
+  @media screen and (max-width: 850px){
+    .hero #a #second{
+      border-style: none;
+      border-color: #175cd3;
+      padding: 7px 10px;
+      border-radius: 2.5px;
+      font-family: "Inter";
+      color: #fff;
+      background-color: #175cd3;
+      font-size: 10px;
+      display: block;
+      position: relative;
+      left: 5px;
+      top: 10px;
+    }
+  }
+  
+  .hero #b{
+    width: 617px;
+    height: 640px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+  @media screen and (max-width: 850px){
+    .hero #b{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    main #b img{
+      width: 300px;
+      height: 323px;
+    }
+  } 
+  

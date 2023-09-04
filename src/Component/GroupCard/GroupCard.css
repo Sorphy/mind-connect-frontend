@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400&display=swap");
+
+.groupx {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.groupt {
+  background-color: #ffffff;
+  padding: 50px;
+  width: 60%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 40px;
+  gap: 32px;
+}
+
+.card {
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.leftG {
+  position: absolute;
+  top: 500px;
+  right: 150px;
+}
+
+@media (max-width: 768px) {
+  .groupx {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .groupx {
+    align-items: flex-start;
+  }
+
+  .groupy {
+    width: calc(100% - 300px); /* Adjust the width as needed */
+    display: block;
+  }
+
+  .leftG {
+    flex-shrink: 0;
+    width: 300px; /* Adjust the width as needed */
+    margin-left: 20px;
+  }
+}
+
+.group-name {
+  color: #175cd3;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+
+.group-con {
+  color: #98a2b3;
+  margin: 6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.name-date {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.date {
+  margin-right: 3rem;
+}
+
+.description {
+  background-color: #ffffff;
+  color: #98a2b3;
+  padding: 1rem 0.5rem 0.2rem 1rem;
+  border-radius: 15px;
+  font-size: large;
+  font-weight: 100;
+  word-spacing: 1px;
+}
+
+.members {
+  color: #98a2b3;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.linked {
+  text-decoration: none;
+  color: #175cd3;
+  font-size: larger;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.joined-modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.joined-modal {
+  animation: modal-popup 0.3s ease;
+}
+
+@keyframes modal-popup {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

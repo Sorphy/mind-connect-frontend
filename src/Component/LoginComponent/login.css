@@ -1,0 +1,240 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/images/background.png);
+  
+}
+
+.body-div {
+  width: 70%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  top: 3.125rem;
+  left: 12.5rem;
+  box-shadow: -0.125rem 0.125rem 0.75rem 0.75rem rgba(23, 46, 217, 0.05);
+}
+
+.body-div .input {
+  width: 70%;
+  height: 90%;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  align-items: center;
+}
+
+.body-div .image {
+  width: 40%;
+  height: 100%;
+  background-image: url(../..//assets/images/bg2.png);
+  background-repeat: no-repeat;
+}
+
+.body-div .row-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 26.25rem;
+  height: 35.75rem;
+  margin-left: 8.75rem;
+}
+
+.body-div .input-control .form-control {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 30px;
+  gap: 8px;
+  width: 420px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  .input-control .form-control {
+    width: 100%; /* Adjust the width to fill the container on smaller screens */
+  }
+}
+
+.form-control {
+  width: 100%;
+  height: 2.5rem;
+  border: 0px;
+  border: 0.0625rem solid gray;
+  border-radius: 0.1875rem;
+  margin-top: 0.625rem;
+}
+
+.inputDiv {
+  width: 100%;
+  height: 25rem;
+  margin-top: 3.75rem;
+}
+
+.google {
+  width: 100%;
+  background-color: #ffffff;
+  color: #757575;
+  border: 0.0625rem solid #dddddd;
+  padding: 0.625rem 1rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+
+.google:hover {
+  border: 0.0625rem solid #c5c5c5;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.google-icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: #4285f4;
+}
+
+
+.google:hover {
+  border: 0.0625rem solid #c5c5c5;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.google-icon {
+  font-size: 1.125rem;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  width: 26.25rem;
+}
+
+.hr {
+  width: 50%;
+  border-bottom: 0.0625rem solid #ccc;
+  margin: 0.1875rem;
+}
+
+.hr {
+  font-size: 0.6875rem;
+}
+
+.rowUp2 {
+  width: 100%;
+  height: 4.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8125rem;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 0.0625rem solid #ccc;
+}
+
+.text {
+  padding: 0 0.625rem;
+}
+
+.forgotPassword,
+.accountStyle a {
+  color: #175cd3;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.loginButton {
+  margin-top: 2rem;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: #175cd3;
+  border-radius: 0.375rem;
+  width: 100%;
+  max-width: 26.25rem;
+  height: 2.875rem;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.accountStyle {
+  height: 1.25rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #667085;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 0.625rem;
+}
+
+.span {
+  width: 5rem;
+  height: 0.5rem;
+  background: #175CD3;
+  border-radius: 0.375rem;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  top: 5.625rem;
+}
+
+/* Mobile Responsive Styles */
+
+@media (max-width: 48rem) {
+  .wrap {
+    width: 90%;
+    top: 0.9375rem;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-x: hidden;
+  }
+
+  .wrap .image {
+    display: none;
+  }
+
+  .wrap .row-two {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .input-control,
+  .form-control,
+  .inputDiv,
+  .input .google,
+  .divider,
+  .rowUp2,
+  .loginButton {
+    max-width: none;
+    width: 100%;
+  }
+  .head1 {
+    font-size: 1.25rem;
+  }
+  .span {
+    top: 4.0625rem;
+    height: 0.3125rem;
+  }
+}

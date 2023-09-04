@@ -1,0 +1,33 @@
+.threedots {
+  background: #d0d5dd;
+  border-radius: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+.modal {
+  position: absolute;
+  right: 50px;
+  width: 16rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+.blockuser {
+  margin-right: 1rem;
+  padding: 1rem 2rem 0rem 1rem;
+}
+.blockaccimg{
+  margin-right: 1rem;
+}
+.reportIcon {
+  padding: 1rem;
+}
+.reportaccimg{
+  margin-right: 1rem;
+}
+
+

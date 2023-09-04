@@ -1,0 +1,80 @@
+.userchats{
+padding:10px;
+display:flex;
+align-items: center;
+gap:10px;
+color:white;
+cursor:pointer;
+height: 97px;
+position:relative;
+}
+.chats{
+    margin-top: 10px;
+}
+.chats :hover{
+    background-color:  #EAECF0;
+    border-radius: 6px;   
+    
+}
+.userchats p{
+    color: #475467;
+}
+.chats hr{ 
+width:75%;
+height: 0.5px;
+background: #EEEEEE;
+margin-left: 30px;
+position:relative;
+
+}
+
+.userchatsinfo{
+margin-bottom:20px;
+display: flex;
+padding-left: 0.7rem;
+
+}
+.userchatsinfo span{ 
+    margin-right: 5px;
+ color: #101828; 
+ /* @media screen and (min-width: 720px) and (max-width: 1080px) {
+    max-width: 70%;
+  } */
+}
+.userchatsinfo p{
+    color: #475467;
+    padding-left: 1.5rem;
+}
+.chatmessage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    margin-top:28px;
+    margin-left:-25px;
+    width:70%;
+}
+
+
+.chatmessage p{
+   display: -webkit-box;
+   -webkit-line-clamp:1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+.chatmessage b{
+    margin-right: -30px;
+    color: fff;
+    background:  #175CD3;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+/* .chats .time{
+    color:#175CD3;
+} */

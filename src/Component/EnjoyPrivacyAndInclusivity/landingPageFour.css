@@ -1,0 +1,84 @@
+
+.landingpagefourtitle {
+  text-align: center;
+  font-family: "Inter";
+  line-height: 140%;
+  
+}
+
+.lpfourcontainer {
+  width: 100%;
+  padding: 6rem;
+  background-color: #f2f4f7;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.landingpagefourparagraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.p-landingpage4 {
+  padding: 2rem;
+  font-size: 16px;
+  color: #5c6881;
+  letter-spacing: 0.15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 140%;
+}
+
+.landingpagefourbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.landingpagefourbutton .link {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .lpfourcontainer {
+    padding: 3rem;
+  }
+
+  .landingpagefourparagraph {
+    font-size: 14px;
+  }
+
+  .p-landingpage4 {
+    padding: 1rem;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lpfourcontainer {
+    padding: 2rem;
+  }
+
+  .landingpagefourparagraph {
+    font-size: 12px;
+  }
+
+  .p-landingpage4 {
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+}

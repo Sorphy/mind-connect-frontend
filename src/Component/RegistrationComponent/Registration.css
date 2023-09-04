@@ -1,0 +1,945 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter&display=swap');
+
+
+
+.body {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+  background: url(https://res.cloudinary.com/dgny9bffu/image/upload/v1684262081/bg-pattern_lmpmqi.png);
+}
+
+/* Signup page */
+
+.background {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "overlap";
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://res.cloudinary.com/dgny9bffu/image/upload/v1684377556/frame2_zm6ds4.png) no-repeat;
+}
+
+
+.Frame1 {
+  display: flex;
+  flex-direction: row; 
+  width: 77.25rem;
+  height: 50rem;
+  background: #FFFFFF;
+  box-shadow: 2px -2px 30px rgba(23, 46, 217, 0.2);
+}
+
+.Frame2 {
+    width: 420px;
+    height: 100%;
+
+    background: url(https://res.cloudinary.com/dgny9bffu/image/upload/v1684273106/frame3_g2rcvh.png) no-repeat;
+    background-size: cover;
+}
+
+.mind-connect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    position: absolute;
+    width: 13.4rem;
+    height: 3.56rem;
+    margin-top: 1.56rem;
+    margin-left: 1.56rem;
+    background: linear-gradient(180deg, rgba(24, 73, 169, 0.7)0%, rgba(24, 73, 169, 0) 100%);
+    filter: drop-shadow(0px -0.5rem 1rem #6270D9);
+}
+
+.mind-connect-text {
+    width: 13.44rem;
+    height: 2.8rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: 0.02rem;
+    color: #D1E9FF;
+}
+
+.parentFrame3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Frame3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 2rem;
+    width: 42.5rem;
+    height: 42.44rem;
+}
+
+.parentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Frame4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 3.5rem;
+
+    width: 42.5rem;
+    height: 32.1rem;
+}
+
+.registration {
+    font-family: "inter";
+    font-style: normal;
+    color: #101828;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.016rem;
+    width: 12.125rem;
+    height: 2.81rem;   
+}
+
+.Frame5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0.25rem;
+    width: 12.13rem;
+    height: 3.56rem;
+}
+
+.Frame6 {
+width: 5rem;
+height: 0.5rem;
+background: #175CD3;
+border-radius: 0.38rem;
+}
+
+.Frame7 {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
+    top: 7.06rem;
+
+    width: 42.5rem;
+    height: 25rem;
+}
+
+.Frame8 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 2.5rem;
+
+    width: 42.5rem;
+    height: 4.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 0.125rem;
+
+    width: 20rem;
+    height: 4.5rem;
+}
+
+.form-group1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0rem;
+  gap: 0.125rem;
+
+  width: 20rem;
+  height: 4.5rem;
+}
+
+.password-input {
+  width: 20rem;
+  position: relative;
+}
+
+#input-password {
+  width:100%;
+ 
+}
+.lock-icon{
+  position: absolute;
+  top:0.9rem;
+  right: 0.7rem;
+  color: #757575;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0rem;
+  width: 4rem;
+  height: 1.25rem;
+}
+
+.form-group-box {
+  width: 10.9rem;
+  height: 1.25rem;
+
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+
+  color: #212121;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+  .parentForm input[type="text"],
+  .parentForm input[type="email"],
+  .parentForm input[type="password"],
+  .parentForm select,
+  .parentForm textarea {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem;
+    gap: 0.5rem;
+    width: 20rem;
+    height: 3rem;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    /*Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  select {
+    color: #757575;
+  }
+
+  #option {
+    color: #757575;
+  }
+
+.Frame9 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    gap:2.5rem;
+    top: 5.5rem;
+    width: 42.5rem;
+    height: 4.5rem;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Frame10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    gap: 2.5rem;
+    top: 5.5rem;
+    width: 42.5rem;
+    height: 4.5rem;
+}
+
+.Frame11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    gap:2.5rem;
+    top: 16.5rem;
+    width: 42.5rem;
+    height: 4.5rem;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.Frame12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0.25rem;
+    top: 22rem;
+    width: 29.4rem;
+    height: 3rem;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.Frame13 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 0.125rem;  
+    width: 2.9rem;
+    height: 1.25rem;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Frame14 {
+    width: 2.9rem;
+    height: 1.25rem;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 20px;
+    color: #212121;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame15 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 4px;
+    width: 400px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+ .form-check1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;   
+        padding: 0px;
+        gap: 8px;
+        width: 62px;
+        height: 24px; 
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+} 
+
+input[type="radio"] {
+        width: 18px;
+        height: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-left: 0px;
+}
+
+.form-check-label {
+        width: 144px;
+        height: 24px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #212121;
+        margin-top: 4px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.frame16 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        margin-top: 45px;
+        width: 453px;
+        height: 134px;
+}
+
+.frame17 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 420px;
+  height: 90px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn-btn-primary {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+  width: 420px;
+  height: 46px;
+  background: #175CD3;
+  border: 1px solid #175CD3;
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-btn-primary:hover {
+  background-color: #0e448c;
+}
+
+.btn-btn-primary:active {
+  background-color: #0a356f;
+}
+
+.create-account-button {
+  width: 120px;
+  height: 22px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.form-group-text-center {
+  width: 220px;
+  height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.break-line {
+  white-space: nowrap;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: blue;
+}
+
+.form-group-text-center-bottom {
+  width: 453px;
+  height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.create-account-button{
+  cursor:pointer;
+}
+
+@media only screen and (max-width:768px) {
+  *,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+
+}
+
+.body {
+  background-size:auto;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: url(https://res.cloudinary.com/dgny9bffu/image/upload/v1684262081/bg-pattern_lmpmqi.png);
+}
+
+.background {
+  background: none;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  overflow-y: scroll;
+  max-height: auto;
+
+}
+
+.Frame1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:1400px;
+  background: none;
+  box-shadow: 2px -2px 30px rgba(23, 46, 217, 0.2);
+}
+
+
+.Frame2 {
+  display: block;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+
+  background: url(https://res.cloudinary.com/dgny9bffu/image/upload/v1684273106/frame3_g2rcvh.png) no-repeat;
+  background-size: cover;
+}
+
+.mind-connect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 215px;
+  height: 57px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.mind-connect-text {
+  width: 215px;
+  height: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+  color: #D1E9FF;
+}
+
+.parentFrame3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Frame3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.parentForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Frame4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Frame5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: auto;
+  height: 57px;
+  margin-left: 25px;
+}
+
+.registration {
+    font-family: "inter";
+    font-style: normal;
+    color: #101828;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    width: auto;
+    height: 45px;
+}
+
+.Frame6 {
+  display: flex;
+  width: 80px;
+  height: 8px;
+  background: #175CD3;
+  border-radius: 6px;
+  }
+  
+  .Frame7  {
+      display: block;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-left: 10px;
+      width: 100%;
+      height: auto;
+  }
+  
+  .Frame8 {
+      display: block;
+      flex-direction: row;
+      gap: 15px;
+      width: auto;
+      height: auto;
+      margin-bottom: 35px;
+  }
+  
+  .form-group1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+  
+  
+  .password-input {
+    width: 320px;
+    position: relative;
+  }
+  
+  #input-password {
+    width:100%;
+   
+  }
+  .lock-icon{
+    position: absolute;
+    top:14px;
+    right: 11px;
+    color: #757575;
+  }
+  
+  .form-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+  }
+  
+  .form-group-box {
+    width: 174px;
+    height: 20px;
+  
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+    
+  }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select,
+    textarea {
+    
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 48;
+      background: #FFFFFF;
+      border: 1px solid #BDBDBD;
+      border-radius: 4px;
+      font-size: 17px;
+      
+    }
+  
+    select {
+      color: #757575;
+    }
+  
+    #option {
+      color: #757575;
+    }
+  
+  .Frame9 {
+    display: block;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .Frame10 {
+    display: block;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .Frame11 {
+    display: block;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .Frame12 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 4px;
+      top: 352px;
+      width: 470px;
+      height: 48px;
+      flex: none;
+      order: 4;
+      flex-grow: 0;
+  }
+  
+  .Frame13 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 2px;    
+      width: 46px;
+      height: 20px;
+  }
+  
+  .Frame14 {
+      width: 46px;
+      height: 20px;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #212121;
+  }
+  
+  .frame15 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 0px;
+      gap: 4px;
+      width: auto;
+      height: auto;
+      
+  }
+  
+   .form-check1 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 0px;
+          gap: 8px;
+          width: 62px;
+          height: 24px; 
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+  } 
+  
+  input[type="radio"] {
+          width: 18px;
+          height: 24px;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          margin-left: 0px;
+  }
+  
+  .form-check-label {
+    width: 144px;
+    height: 24px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #212121;
+    margin-top: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .frame16 {
+          display: flex;
+          flex-direction: column;
+          align-items:flex-start;
+          justify-content: flex-start;
+          padding: 0px;
+          width: auto;
+          height: 134px;
+  }
+  
+  .frame17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 420px;
+    height: 90px;
+    margin-top: 80px;
+  }
+  
+  .btn-btn-primary {
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 8px;
+    width: 220px;
+    height: 46px;
+    background: #175CD3;
+    border: 1px solid #175CD3;
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+ 
+  
+  .create-account-button {
+    width: 120px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .form-group-text-center {
+    width: 220px;
+    height: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+    margin-bottom: 300px;
+  }
+
+
+  .break-line {
+    white-space: normal;
+  }
+
+  .break-line a {
+    display: inline-block;
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }
+  
+  .form-group-text-center-bottom {
+    width: 453px;
+    height: 20px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  
+    color: #667085;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .create-account-button{
+    cursor:pointer;
+  } 
+}
+
