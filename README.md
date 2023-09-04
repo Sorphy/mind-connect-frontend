@@ -1,1 +1,1 @@
-# NODE-Live-Project
+# Mind Connect Frontend Project
